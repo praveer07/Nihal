@@ -25,4 +25,4 @@ def display_employees():
     return render_template('employees.html', employees=employees)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
